@@ -1,11 +1,12 @@
 [project]
 name = "decision-trees-lab"
 version = "0.1.0"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.12"
 dependencies = [
+    "autogluon-tabular>=1.6",
     "matplotlib>=3.11.2",
     "numpy>=2.4.6",
-    "pandas>=3.0.6",
+    "pandas>=2.0,<2.4",
     "scikit-learn>=1.9.1",
     "scipy>=1.17.1",
     "seaborn>=0.13.2",
